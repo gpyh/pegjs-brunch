@@ -1,0 +1,23 @@
+{
+  "name": "pegjs-brunch",
+  "version": "1.0.0",
+  "description": "Adds {{DESCRIPTION}} support to brunch.",
+  "author": "Paul Miller (http://paulmillr.com/)",
+  "homepage": "https://github.com/brunch/{{NAME}}-brunch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/{{NAME}}-brunch.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/eslint index.js && node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "pegjs": "^0.9.0"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "eslint": "^1.10.3",
+    "mocha": "~2.3.4"
+  }
+}
